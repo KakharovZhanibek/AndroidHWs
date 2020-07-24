@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edittext_activity_main_login"
+        android:hint="login"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_activity_main_password"
+        android:hint="password"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textview_activity_main_sign_in_status"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_activity_main_change_visibility"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="48dp"
+        android:text="@string/activity_main_changevisibility_button">
+    </Button>
+    <Button
+        android:id="@+id/button_activity_main_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="@string/activity_main_sign_in_button">
+    </Button>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_activity_main_goto_second_task"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="@string/activity_main_goto_button">
+    </Button>
+
+</LinearLayout>

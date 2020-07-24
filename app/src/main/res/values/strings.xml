@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidHWs</string>
+    <string name="activity_main_textview">It is so sad =(</string>
+    <string name="activity_main_changevisibility_button">Change visibility</string>
+    <string name="activity_main_sign_in_button">Sign in</string>
+    <string name="activity_main_check_button">Check</string>
+    <string name="activity_main_goto_button">Go to 2 task</string>
+</resources>
