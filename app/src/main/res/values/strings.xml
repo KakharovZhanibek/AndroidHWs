@@ -5,4 +5,12 @@
     <string name="activity_main_sign_in_button">Sign in</string>
     <string name="activity_main_check_button">Check</string>
     <string name="activity_main_goto_button">Go to 2 task</string>
+
+    <string name="activity_main_button_send_message_friend">Send message to friend</string>
+    <string name="activity_main_button_authorization">Authorization</string>
+    <string name="activity_authorization_button_send">Send</string>
+
+
+    <string name="activity_main_button_record">RECORD</string>
+
 </resources>
