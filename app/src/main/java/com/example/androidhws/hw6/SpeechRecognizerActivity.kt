@@ -27,7 +27,7 @@ class SpeechRecognizerActivity:AppCompatActivity() {
     var mSpeechRecognizer: SpeechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
     var mSpeechRecognizerIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).also { intent ->
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-        intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, "kz.education.stephomework5")
+        intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, "com.example.androidhws.hw6")
     }
 
 
